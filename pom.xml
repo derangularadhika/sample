@@ -9,19 +9,19 @@
         <relativePath></relativePath>
     </parent>
     <groupId>com</groupId>
-    <artifactId>azure-batch-function</artifactId>
+    <artifactId>sample</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>azure-batch-function</name>
+    <name>sample</name>
     <description>Demo project for Azure Batch Function</description>
     <url/>
     <properties>
-    	<start-class>com.azure_batch_function.AzureBatchFunctionApplication</start-class>
+    	<start-class>com.sample.AzureBatchFunctionApplication</start-class>
         <configuration-distribution>java</configuration-distribution>
         <java.version>17</java.version>
         <spring-cloud.version>2024.0.1</spring-cloud.version>
-        <azure.resource.group>azure-batch-group</azure.resource.group>
-        <azure.function.appName>jashazurebatchfunction</azure.function.appName>
-        <azure.region>eastus2</azure.region> <!-- e.g., eastus -->
+        <azure.resource.group>sample_rg</azure.resource.group>
+        <azure.function.appName>samplesbjbatch</azure.function.appName>
+        <azure.region>Central India </azure.region> <!-- e.g., eastus -->
         <spring-boot-thin-layout.version>1.0.31.RELEASE</spring-boot-thin-layout.version>
     </properties>
 
@@ -81,7 +81,7 @@
 					<appName>${azure.function.appName}</appName>
 					<resourceGroup>${azure.resource.group}</resourceGroup>
 					<region>${azure.region}</region>
-					<appServicePlanName>ASP-azurebatchgroup-9b4b</appServicePlanName>
+					<appServicePlanName>ASP-samplerg-a306</appServicePlanName>
 					<pricingTier>Y1</pricingTier>
 
 					<hostJson>${project.basedir}/src/main/resources/host.json</hostJson>
