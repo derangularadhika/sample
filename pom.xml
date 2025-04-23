@@ -9,13 +9,13 @@
         <relativePath></relativePath>
     </parent>
     <groupId>com</groupId>
-    <artifactId>azure-batch-function</artifactId>
+    <artifactId>sample</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>azure-batch-function</name>
+    <name>sample</name>
     <description>Demo project for Azure Batch Function</description>
     <url/>
     <properties>
-    	<start-class>com.azure_batch_function.AzureBatchFunctionApplication</start-class>
+    	<start-class>com.sample.AzureBatchFunctionApplication</start-class>
         <configuration-distribution>java</configuration-distribution>
         <java.version>17</java.version>
         <spring-cloud.version>2024.0.1</spring-cloud.version>
