@@ -1,7 +1,7 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "${{ secrets.AZURE_WEBJOBS_STORAGE }}",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=samplerga0a3;AccountKey=pUzEx6rzFhayptVLVwYyCULblXZ8ua42ZQ+87I+C7uvdVIQvseUSpbj6y0NTtbu7f2V4Kn8wA7oK+AStmDtJEw==;EndpointSuffix=core.windows.net",
     "FUNCTIONS_WORKER_RUNTIME": "java",
     "FUNCTIONS_EXTENSION_VERSION": "~4"
   }
